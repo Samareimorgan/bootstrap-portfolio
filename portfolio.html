@@ -8,10 +8,59 @@
     <title>Samantha's Portfolio</title>
    
 </head>
+<style>
+  body {
+      margin: 0px;
+      padding: 0px;
+      color: #777777;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url("assets/images/cloth.png");
+      background-color: #cccccc;
+  }
+  header {
+    font-size: 20px;
+      font-family: Georgia, Times, Times New Roman serif;
+      border-bottom: 2px solid #cccccc;
+      background-color:#ffffff;
+  }
+  
+  .navbar-brand {
+    background: #4aaaa5;
+    padding:10px;
+  }
+  
+  footer {
+    background: #666666;
+    padding: 15px;
+    margin: 0px;
+    font-size: 12px;
+    border-top: 5px solid #4aaaa5;
+  }
+  .gallery {
+    width: 960px;
+    background: #ffffff;
+    padding: 15px;
+    margin: 5% auto;
+    border: 1px solid #cccccc;
+    position:inherit;
+} 
+  img {
+   width: 100%;
+   height: 200px;
+  }
+  .caption {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    height: 15%;
+  }
+  </style>
 <header>
    <!--Navigation Bar-->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" img src="assets/images/Samantha.pic">Samantha "Samarei" Johnston</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" img src="assets/images/Samantha.pic"><strong>Samantha "Samarei" Johnston</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,14 +77,74 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      </div>
-    </nav>
+  </nav>
 </header>
-
 
 <body>
   
-   
+  <div class="gallery">
+    <h2>Portfolio</h2>
+  <div class="container-fluid">
+  <!--Row 1-->
+    <div class="row">
+    <!--Add Column in row 1-->
+      <div class="col-xs-12 col-sm-12 col-md-12">
+    <!--Add Row 2-->
+        <div class="row">
+          <!--Column 1 -Row 2-->
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <!--Add Image and caption-->
+            <a href="assets/images/webdesign.png" target="_blank"></a>
+            <img src="assets/images/webdesign.png" class="img-responsive" alt="Website Design">
+            <div class="caption">
+            <p>Website Design</p>
+            </div>
+          </div>
+          <!--Column 2 -Row 2-->
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <!--Add Image and caption-->
+            <a href="assets/images/webdesign2.png" target="_blank"> </a>
+            <img src="assets/images/webdesign2.png" class="img-responsive" alt="Website Design 2">
+            <div class="caption">
+            <p>Website Design 2</p>
+            </div>
+          </div>
+        </div>
+        <!--Add Row 3-->
+        <div class="row">
+        <!--Column 1 -Row 3-->
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <!--Add Image and caption-->
+            <a href="assets/images/website.jpg" target="_blank"></a>
+            <img src="assets/images/website.jpg" class="img-responsive" alt="Website">
+            <div class="caption">
+              <p>Website</p>
+            </div>
+          </div>
+        <!--Column 2 -Row 3-->
+          <div class="col-xs-3 col-sm-3 col-md-3">
+              <!--Add Image and caption-->  
+              <a href="assets/images/coding.jpg" target="_blank"></a>
+              <img src="assets/images/coding.jpg" class="img-responsive" alt="Code">
+              <div class="caption">
+                <p>Code</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+        <!--Column 1 -Row 3-->
+          <div class="col-xs-3 col-sm-3 col-md-3">
+          <!--Add Image and caption-->
+            <a href="assets/images/mobileapp.jpg" target="_blank"></a>
+            <img src="assets/images/mobileapp.jpg" class="img-responsive" alt="Mobile App">
+            <div class="caption">
+              <p>Mobile App</p>
+            </div>
+          </div>
+        </div>
+      
+  </div>
+  </div>
     
 </body>
 </html>
